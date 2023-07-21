@@ -56,7 +56,7 @@ function sliding(){
     if(slide_circles.length-1%count_time!=0){
         slide_circles[count_time].click();
         if(count_time-1==-1){
-            slide_circles[slide_circles.length+count_time-1].style.backgroundColor="white"
+            slide_circles[slide_circles.length+count_time-1].style.backgroundColor="gray"
         }else {
             slide_circles[count_time-1].style.backgroundColor="gray"
         }
