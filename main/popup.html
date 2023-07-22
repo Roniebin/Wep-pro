@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- 공통 메소드들 정리해논 파일 -->
+    <script type="text/javascript" src="Utility.js"></script>
+    <link rel="stylesheet" href="./css/main_post.css">
+    <link rel="stylesheet" href="./css/popup.css">
+
+
+</head>
+<body class="wrapper" >
+
+
+    <header>
+        <header id="contents_box">
+       
+            <img src="./images/용병모집.png" alt="이미지 불러오기 실패" style="margin-left:50px" width="200" height="50"  >
+            <div class="nav_items" style="margin-left:150px">
+            <ul>
+              <li><a href="/">프로젝트 모집</a></li>
+              <li><a href="/"  >이용안내</a></li>
+              <li><a href="/">공지사항</a></li>
+              <li><a href="/" >문의게시판</a></li>
+              <li><a href="/">마이페이지</a></li>
+            </ul>
+            </div>
+            
+            <img src="./images/my_img.png" alt="이미지 불러오기 실패"  width="40" height="40"   style="margin-right:50px"><br>   
+        
+            <button type="button" id="login" onclick="location.href='aa.html'"style="margin-right:50px; width:150px ;height:30px">로그인</button>
+        
+            <!--  <span style="font-size:0.7em; color:gray; width:100px">성빈 님</span>
+            <button type="button" id="logout" onclick="location.href='bb.html'"style="margin-right:50px; width:150px ;height:30px">로그아웃</button>
+        -->
+          
+        
+        </header>
+     
+    </header>
+
+
+    <!--  -->
+    <div class="wrap"style="background-color:Linen; width:1500px" >
+
+    <form action="" class="container" >
+        
+        <!-- 이용약관 -->
+        <p>    
+            약관 동의
+        </p>
+
+        <!-- terms and conditions -->
+        <div class="TandC">
+
+            <!-- 전체 동의 -->
+            <div style="border-bottom: 1px solid gray;">
+                <span>전체 동의</span>
+                <input type="checkbox" name="" id="">
+            </div>
+            
+            <!-- 필수 1 -->
+            <div>
+                <span><strong>(필수)</strong> 개인회원 약관에 동의 <button>상세 보기</button></span>
+                <input type="checkbox" name="" id="">
+            </div>
+            
+            <!-- 필수 2 -->
+            <div>
+                <span><strong>(필수)</strong> 개인정보 수집 및 이용에 동의 <button>상세 보기</button></span>
+                <input type="checkbox" name="" id="">
+            </div>
+
+            <!-- 선택 1 -->
+            <div>
+                <span>(선택) 마케팅 정보 수신 동의 - 이메일 <button>상세 보기</button></span>
+                <input type="checkbox" name="" id="">
+            </div>
+            
+            <!-- 선택 2 -->
+            <div>
+                <span>(선택) 마케팅 정보 수신 동의 - SMS/MMS <button>상세 보기</button></span>
+                <input type="checkbox" name="" id="">
+            </div>
+
+        </div> 
+
+        <p>
+            <!-- 회원 정보 -->
+            회원정보를 입력해주세요
+        </p>
+        
+        <!-- Collection of personal(member) information? -->
+        <!-- 회원 정보 -->
+        <div class="MemberInfo_box" >
+            
+            <!-- 휴대폰 번호 또는 이메일 주소 -->
+            <div>
+                <input type="text" placeholder="이름">
+                <p>이름</p>
+            </div>
+
+            <!-- 비밀번호 -->
+            <div>
+                <input type="password" placeholder="아이디">
+                <p>아이디</p>
+            </div>
+
+            <!-- 비밀번호 확인 -->
+            <div>
+                <input type="password" placeholder="비밀번호">
+                <p>비밀번호</p>
+            </div>
+
+            <!-- 닉네임 -->
+            <div>
+                <input type="text" placeholder="닉네임">
+                <p>닉네임</p>
+            </div>
+
+            <div>
+                <!-- 회원가입 -->
+                <input type="button" value="회원가입">
+            </div>
+
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
