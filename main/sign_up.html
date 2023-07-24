@@ -10,7 +10,7 @@
     <!-- 공통 메소드들 정리해논 파일 -->
     <script type="text/javascript" src="Utility.js"></script>
     <link rel="stylesheet" href="./css/main_post.css">
-    <link rel="stylesheet" href="./css/popup.css">
+    <link rel="stylesheet" href="./css/sign_up.css">
 
 
 </head>
@@ -46,10 +46,11 @@
 
 
     <!--  -->
-    <div class="wrap"style="background-color:Linen; width:1500px" >
+    <div style="background-color:Linen">
+    <div class="wrap"style="width:1500px ; height:1000px" >
 
+    
     <form action="" class="container" >
-        
         <!-- 이용약관 -->
         <p>    
             약관 동의
@@ -89,7 +90,7 @@
             </div>
 
         </div> 
-
+       
         <p>
             <!-- 회원 정보 -->
             회원정보를 입력해주세요
@@ -107,8 +108,8 @@
 
             <!-- 비밀번호 -->
             <div>
-                <input type="password" placeholder="아이디">
-                <p>아이디</p>
+                <input type="password" placeholder="E-Mail">
+                <p>E-Mail</p>
             </div>
 
             <!-- 비밀번호 확인 -->
@@ -117,19 +118,91 @@
                 <p>비밀번호</p>
             </div>
 
+            <div>
+                <input type="password" placeholder="비밀번호">
+                <p>비밀번호 확인</p>
+            </div>
+
             <!-- 닉네임 -->
             <div>
                 <input type="text" placeholder="닉네임">
                 <p>닉네임</p>
             </div>
 
-            <div>
-                <input type="text" placeholder="언어">
-                <p>언어</p>
+            <div style="margin-top:20px">
+                <label for="lang">Your Language</label>
+                1. 
+                <select name="languages1" id="lang1" style="margin:13px"> 
+                    <option value="erlang">없음</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="java">Java</option>
+                    <option value="golang">Golang</option>
+                    <option value="python">Python</option>
+                    <option value="c#">C#</option>
+                    <option value="C++">C++</option>
+                    <option value="erlang">Erlang</option>
+                </select> 
+                2.
+                <select name="languages2" id="lang2"style="margin:13px"> 
+                    <option value="erlang">없음</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="java">Java</option>
+                    <option value="golang">Golang</option>
+                    <option value="python">Python</option>
+                    <option value="c#">C#</option>
+                    <option value="C++">C++</option>
+                    <option value="erlang">Erlang</option>
+                </select>
+                3.
+                <select name="languages3" id="lang3"style="margin:13px"> 
+                    <option value="erlang">없음</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="java">Java</option>
+                    <option value="golang">Golang</option>
+                    <option value="python">Python</option>
+                    <option value="c#">C#</option>
+                    <option value="C++">C++</option>
+                    <option value="erlang">Erlang</option>
+                </select>
             </div>
-            <div>
-                <input type="text" placeholder="분야">
-                <p>분야</p>
+            <div style="margin-bottom:40px;margin-top:20px">
+                <label for="fieldd">Your field</label>
+                1.
+                <select name="feild1" id="f1" style="margin:4px"> 
+                    <option value="erlang">없음</option>
+                    <option value="javascript">프론트엔드</option>
+                    <option value="php">백엔드</option>
+                    <option value="java">소프트웨어</option>
+                    <option value="golang">앱개발</option>
+                    <option value="python">데이터베이스</option>
+                    <option value="c#">인공지능</option>
+                    <option value="C++">프로그래밍</option>
+                </select>
+                2.
+                <select name="feild2" id="f2" style="margin:4px"> 
+                    <option value="erlang">없음</option>
+                    <option value="javascript">프론트엔드</option>
+                    <option value="php">백엔드</option>
+                    <option value="java">소프트웨어</option>
+                    <option value="golang">앱개발</option>
+                    <option value="python">데이터베이스</option>
+                    <option value="c#">인공지능</option>
+                    <option value="C++">프로그래밍</option>
+                </select>
+                3.
+                <select name="feild3" id="f3" style="margin:4px"> 
+                    <option value="erlang">없음</option>
+                    <option value="javascript">프론트엔드</option>
+                    <option value="php">백엔드</option>
+                    <option value="java">소프트웨어</option>
+                    <option value="golang">앱개발</option>
+                    <option value="python">데이터베이스</option>
+                    <option value="c#">인공지능</option>
+                    <option value="C++">프로그래밍</option>
+                </select>
             </div>
 
             <div>
@@ -138,8 +211,10 @@
             </div>
 
         </div>
-
+        
     </form>
+    
+    </div>
 </div>
 </body>
 </html>
