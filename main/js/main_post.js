@@ -89,6 +89,7 @@ no_hard2.addEventListener("click",function(){
 })
 
 
+
 //프로젝트 단계별 step 파트 
 /*프로젝트 step 이벤트 처리작업------------------------------------------*/
 var step_circles=document.querySelectorAll(".step");
