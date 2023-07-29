@@ -40,6 +40,39 @@ a:hover,a:active,a:focus{text-decoration:underline}
 }
 
 
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    margin-top:100px;
+    margin-left:20px;
+    cursor: pointer;
+}
+.w-btn-gra2 {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    color: white;
+}.w-btn-gra-anim {
+    background-size: 400% 400%;
+    animation: gradient1 5s ease infinite;
+}
+@keyframes gradient1 {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 
 .fixed_img_col li{
@@ -48,7 +81,7 @@ a:hover,a:active,a:focus{text-decoration:underline}
     height:80x;
     padding:20px 100px;
     margin-bottom:-1px;
-    margin-top:100px;
+    margin-top:20px;
     border-bottom:1px solid cyan;
    
               
