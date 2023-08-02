@@ -13,6 +13,7 @@ a:hover,a:active,a:focus{text-decoration:underline}
     margin-top:100px;
     margin-left:500px;
     margin-bottom:150px;
+    
   }
   
  
@@ -81,7 +82,7 @@ a:hover,a:active,a:focus{text-decoration:underline}
               
 }
 .check_wrap{
-    accent-color: red;
+    accent-color: cyan;
 }
 
 .fixed_img_col li a{
@@ -120,7 +121,9 @@ a:hover,a:active,a:focus{text-decoration:underline}
     display:block;
     
 }
-
+.heart1{
+    cursor: pointer;
+}
 .fixed_img_col li a strong{
     display:block;
     padding: 8px 0 4px;

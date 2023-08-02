@@ -71,16 +71,49 @@ donga.addEventListener('click',function(){
 var heart=document.querySelectorAll('.heart1')
 
 heart.forEach(function(item,index){
-    console.log(heart[index]);
     heart[index].addEventListener('click',function(){
-        console.log(heart[index].src);
-        if(heart[index].src=="./images/하트모양(빨강).jpg"){
-            console.log(heart[index].src);
+        if(heart[index].src=="http://127.0.0.1:5500/main/images/%ED%95%98%ED%8A%B8%EB%AA%A8%EC%96%91(%EB%B9%A8%EA%B0%95).jpg"){
             heart[index].src="./images/하트모양(회색).jpg";
-           
         }else{
-            console.log(heart[index].src);
+
             heart[index].src="./images/하트모양(빨강).jpg";
         }
+    })
+})
+
+// 검색 했을때 ,checked 유지되게 하는 기능 구현
+var search_btn=document.querySelector(".w-btn");
+var field=document.querySelectorAll('input[name="field"]');
+var language=document.querySelectorAll('input[name="language"]');
+
+console.log(search_btn);
+search_btn.addEventListener("click", function(){
+    var checked_field = ["프론트엔드","백엔드"];
+    var checked_language = ["JAVA","C","CSS"];
+
+    
+    console.log(field[0].value);
+    console.log(language[0].value);
+
+
+    console.log(checked_field[0]);
+    console.log(checked_language[0]);
+
+    field.forEach(function(item,index1){
+        checked_field.forEach(function(item,index2){
+            if(field[index1].value== checked_field[index2]){
+                console.log("여기 ㄴ");
+                field[index1].checked=true;
+            }
+        })
+    })
+
+    language.forEach(function(item,index1){
+        checked_language.forEach(function(item,index2){
+            if(language[index1].value== checked_language[index2]){
+                console.log("여기 ㅍ");
+                language[index1].checked=true;
+            }
+        })
     })
 })

@@ -7,8 +7,9 @@
 
 #login,#logout{
   font-size: 15px;
-  background-color: skyblue;
+  background-color: #00B0F0;
   color: white;
+  font-weight:bold;
   border: none;
   cursor: pointer;
   border-radius: 20px;

@@ -8,23 +8,22 @@
     <script src="https://kit.fontawesome.com/53a8c415f1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main_post.css">
     <link rel="stylesheet" href="./css/project_bulletin.css">
-    
+    <link rel="stylesheet" href="./css/project_page.css">
 </head>
 
-<body class="wrapper2">
-    <header id="contents_box">
-        <img src="./images/용병모집.png" id="donga"alt="이미지 불러오기 실패" style="margin-left:50px" width="200" height="50"  >
-        <div class="nav_items" style="margin-left:150px">
+<body class="wrapper2" style="background-color:#13161c">
+    <header id="contents_box" >
+        <img src="./images/프로젝트용병모집.jpg" id="donga"alt="이미지 불러오기 실패" style="margin-left:50px" width="200" height="50"  >
+        <div class="nav_items" style="margin-left:150px;">
         <ul>
-          <li><a href="/">프로젝트 모집</a></li>
-          <li><a href="/"  >이용안내</a></li>
-          <li><a href="/">공지사항</a></li>
-          <li><a href="/" >문의게시판</a></li>
-          <li><a href="/">마이페이지</a></li>
+          <li><a href="/"><span style="color:white">프로젝트 모집</span></a></li>
+          <li><a href="/"><span style="color:white">공지사항</span></a></li>
+          <li><a href="/" ><span style="color:white">문의게시판</span></a></li>
+          <li><a href="/"><span style="color:white">랭킹</span></a></li>
+          <li><a href="/"><span style="color:white">마이페이지</span></a></li>
         </ul>
         </div>
         
-        <img src="./images/my_img.png" alt="이미지 불러오기 실패"  width="40" height="40"   style="margin-right:50px"><br>   
         
         <button type="button" id="login" onclick="location.href='login.html'"style="margin-right:50px; width:150px ;height:30px">로그인</button>
     
@@ -33,7 +32,7 @@
     -->
     </header>
    
-    <div class="wrap2"  style="background-color:#13161c; width:1500px;height:1700px" >
+    <div class="wrap2"  style=" width:1500px;height:2000px" >
 
        
         <div class="fixed_img_col" style="height:1500px" >
@@ -47,31 +46,31 @@
            <div class="check_wrap" style="margin-left:300px">
             <div style="border-bottom:1px solid cyan;width:930px">
                 
-            <span style="color:white;margin-left:370px">분야 : </span>
-            <input type="checkbox" id="check_btn"value="프론트엔드"/><span style="color:white;">프론트엔드</span>
-            <input type="checkbox" id="check_btn"  value="백엔드"/><span style="color:white;">백엔드</span><br><br><br>
+            <span style="color:white;margin-left:360px">분야 : </span>
+            <input type="checkbox" name="field"id="프론트엔드"value="프론트엔드"/><span style="color:white;">프론트엔드</span>
+            <input type="checkbox" name="field"id="백엔드"  value="백엔드"/><span style="color:white;">백엔드</span><br><br><br>
             </div>
         <br><br> 
             <span style="color:white;margin-left:100px">언어 : </span>
-            <input type="checkbox" id="check_btn" style="margin-left:10px" value="C"/><span style="color:white;">C</span>
-            <input type="checkbox" id="check_btn" style="margin-left:10px" value="JAVA"/><span style="color:white;">JAVA</span>
-            <input type="checkbox" id="check_btn" style="margin-left:10px" value="PYTHON"/><span style="color:white;">PYTHON</span>
-            <input type="checkbox" id="check_btn" style="margin-left:10px" value="CSS"/><span style="color:white;">CSS</span>
-             <input type="checkbox" id="check_btn" style="margin-left:10px" value="JAVASCRIPT"/><span style="color:white;">JAVASCRIPT</span> 
-             <input type="checkbox" id="check_btn" style="margin-left:10px" value="TYPESCRIPT"/><span style="color:white;">TYPESCRIPT</span>
-             <input type="checkbox" id="check_btn" style="margin-left:10px" value="SQL"/><span style="color:white;">SQL</span>
-             <input type="checkbox" id="check_btn" style="margin-left:10px" value="PHP"/><span style="color:white;">PHP</span>
-             <input type="checkbox" id="check_btn" style="margin-left:10px" value="KOTLIN"/><span style="color:white;">KOTLIN</span>
-              <input type="checkbox" id="check_btn" style="margin-left:10px" value="GO"/><span style="color:white;">GO</span>
-             <input type="checkbox" id="check_btn" style="margin-left:10px" value="SWIFT"/><span style="color:white;">SWIFT</span>
+            <input type="checkbox" name="language"id="C" style="margin-left:10px" value="C"/><span style="color:white;">C</span>
+            <input type="checkbox"  name="language" id="JAVA" style="margin-left:10px" value="JAVA"/><span style="color:white;">JAVA</span>
+            <input type="checkbox"  name="language" id="PYTHON" style="margin-left:10px" value="PYTHON"/><span style="color:white;">PYTHON</span>
+            <input type="checkbox"  name="language" id="CSS" style="margin-left:10px" value="CSS"/><span style="color:white;">CSS</span>
+             <input type="checkbox"  name="language" id="JAVASCRIPT" style="margin-left:10px" value="JAVASCRIPT"/><span style="color:white;">JAVASCRIPT</span> 
+             <input type="checkbox"  name="language" id="TYPESCRIPT" style="margin-left:10px" value="TYPESCRIPT"/><span style="color:white;">TYPESCRIPT</span>
+             <input type="checkbox"  name="language" id="SQL" style="margin-left:10px" value="SQL"/><span style="color:white;">SQL</span>
+             <input type="checkbox"  name="language" id="PHP" style="margin-left:10px" value="PHP"/><span style="color:white;">PHP</span>
+             <input type="checkbox"  name="language" id="KOTLIN" style="margin-left:10px" value="KOTLIN"/><span style="color:white;">KOTLIN</span>
+              <input type="checkbox"  name="language" id="GO" style="margin-left:10px" value="GO"/><span style="color:white;">GO</span>
+             <input type="checkbox"  name="language" id="SWIFT" style="margin-left:10px" value="SWIFT"/><span style="color:white;">SWIFT</span>
           </div>
           <br>
           <div style="border-bottom:1px solid white ;width:1500px;height:150px">
-          <button class="w-btn w-btn-gra2 w-btn-gra-anim" style="margin-left:680px;width:150px;" type="button">
+          <button class="w-btn w-btn-gra2 w-btn-gra-anim" id="search_btn"style="margin-left:680px;width:150px;" type="button">
             <span style="font-size:15px">검색</span>
          </button>
         </div>
-            <div style="height:800px;border-bottom:1px solid white">
+            <div style="height:670px">
             <ul style="margin-left:70px;margin-top:100px">
               
                 <li >
@@ -127,8 +126,25 @@
 
             </ul>
         </div>
+
+        <div style="border-bottom:1px solid white">
+            <div class="pagination-container" >
+                <div class="prev-button" style="color:white;margin-left:100px;">처음</div>
+                    <div class="number-button-wrapper" style="color:white">
+                        <span class="number-button">1</span>
+                        <span class="number-button">2</span>
+                        <span class="number-button">3</span>
+                        <span class="number-button">4</span>
+                        <span class="number-button" >5</span>
+                    </div>
+                    
+                <div class="next-button" style="color:white; margin-left:20px;">마지막</div>
+        
+            </div>
             
+            </div>
         </div>
+        
         <div id="advertisement" style=" border-bottom: solid 2px white;background-color:#13161c;height:1000px">
             <div id="banner_comments">
                 <br><br><br>
@@ -145,11 +161,13 @@
             </div>
             
         </div>
+      
     </div>
     
   
     
     <script src="js/project_bulletin.js"></script>
+    <script src="js/pagination.js"></script>
 </body>
 <!--사진출처 해커 뒷모습:https://kr.freepik.com/premium-photo/hacker-working-behind-computer-monitors-illustration-generative-ai_39743109.htm#page=2&query=%ED%95%B4%EC%BB%A4%20%EB%92%B7%EB%AA%A8%EC%8A%B5&position=39&from_view=search&track=ais-->
 </html>
