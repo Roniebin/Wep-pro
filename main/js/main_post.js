@@ -1,23 +1,4 @@
 
-// contents_box 안에 버튼들 객체 가져오기
-/*컨텐츠 박스안의 작업 ----------------------------------------------*/
-var recruit_project=document.getElementById("recruit_project");
-var using_way=document.getElementById("using_way");
-var information=document.getElementById("information");
-var question=document.getElementById("question");
-var my_page=document.getElementById("my_page");
-
-var contents=document.querySelectorAll(".contents");
-contents.forEach(function(item,index){
-    item.addEventListener("mouseover",function(){
-        this.style.backgroundColor="#E2E2E2";
-    })
-    item.addEventListener("mouseout",function(){
-        this.style.backgroundColor="white";
-        })
-})
-/*---------------------------------------------------------------------*/
-
 
 
 /*---------------------------------------------------------------------*/
@@ -70,4 +51,11 @@ var step3=document.querySelector("#step3");
 
 
 
+var donga=document.querySelector('#donga');
+donga.addEventListener('mouseover',function(){
+    donga.style.cursor= "pointer";
+})
 
+donga.addEventListener('click',function(){
+    location.href='main_post.html';
+})

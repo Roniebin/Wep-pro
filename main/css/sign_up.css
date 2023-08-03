@@ -33,7 +33,7 @@ body{
 /* 헤더 박스 (로고, 로그인) */
 header{
     height: 50px;
-    padding: 5px;
+    padding: 3px;
     display: flex;
     justify-content: space-between;
     flex-grow : 0;
