@@ -2,6 +2,8 @@ var page_btn=document.querySelectorAll(".number-button");
 
 console.log(page_btn);
 var present_page=0;
+page_btn[0].style.backgroundColor="cyan";
+page_btn[0].style.color="black";
 
 page_btn.forEach(function (item,index){
     page_btn[index].addEventListener("click",function(){

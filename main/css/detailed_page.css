@@ -1,0 +1,28 @@
+.detailed_page{
+    background-color:#13161c;
+    width:1400px; 
+    height:500px;
+    color:white;
+    padding:15px;
+    border:1px solid  white;
+    margin-top:50px;
+  
+}
+
+.inside{
+    width: 1400px;
+   
+    display: grid;
+    grid-template-columns: 650px 650px; /* 각 행(세로줄)의 길이 */
+    grid-template-rows: 400px 300px 890px 300px; /* 각 열(가로줄)의 길이 */
+    gap: 100px; /* 자식요소간의 간격 */
+}
+.temp-box {
+    background: white;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    border: 1px solid #dee3eb;
+    text-align: center;
+  }
+  

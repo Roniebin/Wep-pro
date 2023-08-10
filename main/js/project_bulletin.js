@@ -57,7 +57,7 @@ function sliding(){
 
 
 
-var donga=document.querySelector('#donga');
+var donga=document.querySelector('.donga');
 donga.addEventListener('mouseover',function(){
     donga.style.cursor= "pointer";
 })
