@@ -53,8 +53,9 @@ small_pic.forEach(function(item,index){
 
     var right_direction=document.querySelector("#right_direction");
     var right_idx=0;
-
+    console.log("dsfd");
     right_direction.addEventListener("click", function(){
+       
         if(idx+1<small_pic.length-1){
             right_idx=idx+1;
         }else{
