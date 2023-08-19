@@ -46,7 +46,7 @@ header > button {
     background-color: transparent;
     font-size: larger;
 }
-#information_in{
+.information_in{
     width: 90%;
     height: 50px;
     border-radius: 30px;
@@ -61,7 +61,7 @@ header > button {
 .container{
     /* background-color: aqua; */
     min-height: 600px;
-    height: 1000px;
+    height: 850px;
     width:600px;
     /* width: 400px; */
     display: flex;
