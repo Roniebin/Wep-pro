@@ -10,30 +10,30 @@
     <link rel="stylesheet" href="./css/main_post.css">
 </head>
 <body class="wrapper1" style="background-color:Linen">
-    <img src="./images/프로젝트용병모집(메인).jpg" class="donga"alt="이미지 불러오기 실패" style="margin-left:-100px;margin-top:20px" width="500" height="150"  >
-       
+    <!--배너 위에 메인,마이페이지 등 버튼 만들기-->
+    
     <div class="wrap" style="background-color:Linen; width:1500px;height:700px">
-        <div class="login" style="margin-top:-130px">
-            <h2>로그인</h2>
-          
-            <div class="login_id" >
-                <h4>아이디</h4>
-                <input type="id" name="" id="" >
+        <div class="login">
+          <h2>로그인</h2>
+    
+          <div class="login_id" >
+            <h4>아이디</h4>
+            <input type="id" name="emailId">
+          </div>
+          <div class="login_pw" >
+            <h4>비밀번호</h4>
+            <input type="password" name="password">
+          </div>
+          <div class="login_etc" style="text-align:right">
+    
+            <div class="forgot_pw" style="text-align:right">
+              <a href="" style="font-size:0.7em;color:gray">비밀번호를 잊어버리셨나요?</a><br>
+              <a href="sign_up.html" style="font-size:0.7em;color:gray">회원 가입</a>
             </div>
-            <div class="login_pw" >
-                <h4>비밀번호</h4>
-                <input type="password" name="" id="">
-            </div>
-            <div class="login_etc" style="text-align:right">
-               
-                <div class="forgot_pw" style="text-align:right;margin-top:30px">
-                <a href="" style="font-size:0.7em;color:gray">비밀번호를 잊어버리셨나요?</a><br>
-                <a href="sign_up.html" style="font-size:0.7em;color:gray">회원 가입</a>
-                </div>
-            </div>
-            <div class="submit">
-                <input type="submit" value="로그인">
-            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" value="로그인">
+          </div>
         </div>
     </div>
     <script src="js/login.js"></script>
