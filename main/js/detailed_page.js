@@ -82,7 +82,7 @@ small_pic.forEach(function(item,index){
     })
     
     donga.addEventListener('click',function(){
-        location.href='main_post.html';
+        location.href='first_main.html';
     })
     
 

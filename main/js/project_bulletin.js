@@ -63,7 +63,7 @@ donga.addEventListener('mouseover',function(){
 })
 
 donga.addEventListener('click',function(){
-    location.href='main_post.html';
+    location.href='first_main.html';
 })
 
 //북마크 이벤트연결
