@@ -10,7 +10,7 @@ homepage.addEventListener('click',function(){
 
 var donga=document.querySelector('.donga');
 donga.addEventListener('mouseover',function(){
-    my_pic.style.cursor= "pointer";
+    donga.style.cursor= "pointer";
 })
 
 donga.addEventListener('click',function(){
