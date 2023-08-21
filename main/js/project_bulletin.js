@@ -66,6 +66,14 @@ donga.addEventListener('click',function(){
     location.href='first_main.html';
 })
 
+var my_pic=document.querySelector('.my_pic');
+    my_pic.addEventListener('mouseover',function(){
+        my_pic.style.cursor= "pointer";
+    })
+    
+    my_pic.addEventListener('click',function(){
+        location.href='my_page.html';
+    })
 //북마크 이벤트연결
 
 var heart=document.querySelectorAll('.heart1')
