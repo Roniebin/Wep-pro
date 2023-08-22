@@ -11,65 +11,71 @@
   
 </head>
 
-<body style="background-color:Linen;height:1000px">
-    <header id="contents_box" style="border-bottom: solid 2px white;">
-       
-        <img src="./images/프로젝트용병모집(메인).jpg" class="donga"alt="이미지 불러오기 실패" style="margin-left:50px" width="200" height="45"  >
-        <div class="nav_items" style="margin-left:150px;">
-        <ul>
-          <li><a href="/">프로젝트 모집</a></li>
-          <li><a href="/">공지사항</a></li>
-          <li><a href="/" >문의게시판</a></li>
-          <li><a href="/">랭킹</a></li>
-                     
-        </ul>
-        <img src="./images/my_img.png" class="my_pic"alt="이미지 불러오기 실패" width="30" height="30" style="margin-left:30px;border-radius:50%;border:none" >
-        &nbsp;
-        </div>
-       
-        <button type="button" id="login" onclick="location.href='login.html'"style="margin-right:50px; width:150px ;height:30px">로그인</button>
+<body style="height:1000px">
+
+    <h1 style="color:black; font-weight:bold;font-size:50px;margin-left:650px;margin-top:60px">마이페이지</h1>
+
+    <button class="info_btn"style="width:120px;height:30px;margin-left:150px;background-color:white;font-weight:bold;text-align:center;border:none">내정보</button>
+    <button class="info_btn"style="width:120px;height:30px;background-color:white;font-weight:bold;margin-left:-10px;text-align:center;border:none">프로젝트 관리</button>
+    <button class="info_btn"style="width:120px;height:30px;background-color:white;font-weight:bold;margin-left:-5px;text-align:center;border:none">북마크</button>
+
     
-        <!--  <span style="font-size:0.7em; color:gray; width:100px">성빈 님</span>
-        <button type="button" id="logout" onclick="location.href='bb.html'"style="margin-right:50px; width:150px ;height:30px">로그아웃</button>
-    -->
-</header>
+    <hr>
+ 
+    <div id="info_container">
 
-    <h1 style="color:black; font-weight:bold;font-size:50px;margin-left:650px;margin-top:40px">My Info</h1>
-    <button class="info_btn"style="width:400px;height:50px;margin-left:150px;background-color:white;font-weight:bold">내정보</button>
-    <button class="info_btn"style="width:400px;height:50px;background-color:white;font-weight:bold">프로젝트 관리</button>
-    <button class="info_btn"style="width:400px;height:50px;background-color:white;font-weight:bold">북마크</button>
-
-    <fieldset style="margin-top:20px;margin-left:150px;width:1185px;height:600px;background-color:white">
+    
+    <fieldset style="margin-top:20px;margin-left:150px;width:600px;height:530px;background-color:white;border-radius:5%">
         <legend>
            
         </legend>
-        <div id="person_info">
-            <div>
-                <h1 style="color:black">내정보</h1>
-                <hr>
-            </div>
-            <div>
-                <img src="./images/my_img.png" class="donga"alt="이미지 불러오기 실패" width="100" height="100" style="margin-left:30px;border-radius:50%;border:none" >
-      
+        
+        <div id="personal_info" >
+            <span style="margin-left:250px;font-size:20px">-my info-</span>
+            <div style="padding-top:40px">
+                <img src="./images/my_img.png" class="donga"alt="이미지 불러오기 실패" width="120" height="120" style="margin-left:50px;border-radius:50%;border:none" >
+                <br><br>
             </div>
             <hr>
-            <div style="height:30px">
-                <span style="color:black;margin-left:65px">이름</span>
-                <span style="color:black;margin-left:550px">이름</span>
+            <div class="info_box"style="height:40px;padding-top:5px">
+                <span class="private_info"style="color:black;margin-left:70px">*닉네임 : </span> Roniebin
             </div>
             <hr>
-            <div style="height:30px">
-                <span style="color:black;margin-left:65px">이름</span>
-                <span style="color:black;margin-left:550px">이름</span>
+            <div class="info_box"style="height:40px;padding-top:5px">
+                <span class="private_info"style="color:black;margin-left:70px">*아이디 : </span> 1923986
             </div>
             <hr>
-            <div style="height:30px">
-                <span style="color:black;margin-left:65px">이름</span>
-                <span style="color:black;margin-left:550px">이름</span>
+            <div class="info_box"style="height:40px;padding-top:5px">
+                <span class="private_info"style="color:black;margin-left:73px">*E-mail : </span> 1923986@donga.ac.kr
             </div>
             <hr>
+           
+            <div class="info_box"style="height:40px;padding-top:5px">
+                <span class="private_info"style="color:black;margin-left:86px">*분야 : </span> 프론트엔드
+            </div>
+            <hr>
+            <div class="info_box"style="height:40px;padding-top:5px">
+                <span class="private_info"style="color:black;margin-left:86px">*언어 : </span> javascript
+            </div>
+            <hr>
+
         </div>
     </fieldset>
+    
+    <fieldset style="margin-top:20px;margin-left:600px;width:600px;height:350px;background-color:white;border-radius:5%">
+        <legend>
+           
+        </legend>
+       
+    </fieldset>
+    <br>
+    <fieldset style="margin-top:210px;margin-left:800px;width:600px;height:300px;background-color:white;border-radius:5%">
+        <legend>
+           
+        </legend>
+       
+    </fieldset>
 
+</div>
     <script src="js/my_page.js"></script>
 </body>

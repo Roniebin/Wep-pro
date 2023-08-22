@@ -1,16 +1,15 @@
-var donga=document.querySelector('.donga');
-donga.addEventListener('mouseover',function(){
-    donga.style.cursor= "pointer";
+
+
+var info_btn=document.querySelectorAll(".info_btn");
+info_btn.forEach(function(item,index){
+    info_btn[index].addEventListener('mouseover',function(){
+        info_btn[index].style.backgroundColor="#dcdcdc";
+    })
+  
+    info_btn[index].addEventListener('mouseout',function(){
+        info_btn[index].style.backgroundColor="white";
+    })
 })
 
-donga.addEventListener('click',function(){
-    location.href='first_main.html';
-})
-var my_pic=document.querySelector('.my_pic');
-my_pic.addEventListener('mouseover',function(){
-    my_pic.style.cursor= "pointer";
-})
 
-my_pic.addEventListener('click',function(){
-    location.href='my_page.html';
-})
+
