@@ -93,7 +93,7 @@ small_pic.forEach(function(item,index){
     my_pic.addEventListener('click',function(){
         location.href='my_page.html';
     })
-    
+
 
     new Chart(document.getElementById("bar-chart"), {
         type: 'bar',
