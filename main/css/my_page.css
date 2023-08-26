@@ -1,7 +1,7 @@
 
   #info_container{
     display:grid;
-    grid-template-columns: 200px 600px 800px;
+    grid-template-columns: 150px 1200px 800px;
 
 	  grid-template-rows: 600px 600px 800px;
 	
@@ -23,3 +23,17 @@
     margin: -1px 8px 0 -4px;
     vertical-align: top;
   }
+
+
+  .managing_project {
+    display:grid;
+    grid-template-columns: 650px 1200px 800px;
+
+	  grid-template-rows: 600px 600px 800px;
+  }
+
+  .my_page_background_img{
+    background-repeat:no-repeat;
+    background-size:1500px 480px;
+  }
+  
