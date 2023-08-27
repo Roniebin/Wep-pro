@@ -1,9 +1,9 @@
 
   #info_container{
     display:grid;
-    grid-template-columns: 150px 1200px 800px;
+    grid-template-columns: 150px 1400px 0px;
 
-	  grid-template-rows: 600px 600px 800px;
+	  grid-template-rows: 600px 600px 1000px;
 	
   }
 
