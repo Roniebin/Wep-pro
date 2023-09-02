@@ -28,59 +28,122 @@
                 프로필
             </span>
             <br> <br>
-            <button style="width:150px;height:40px;margin-top:0px;margin-left:505px;background-color:white;border-radius:20px">프로필 사진 변경</button>
+            <button class="changing_profile"style="width:150px;height:40px;margin-top:0px;margin-left:505px;background-color:white;border-radius:20px">프로필 사진 변경</button>
        
             <img src="./images/my_img.png" class="donga"alt="이미지 불러오기 실패" width="100" height="100" style="margin-bottom:15px;margin-left:100px;border-radius:50%;border:none" >
             <br>
         <span style="font-weight:bold;margin-left:60px;">Roniebin</span> 님 반갑습니다.<br>
-        <span style="margin-left:120px;font-size:0.8em;color:gray;font-weight:bold">5</span> <span style="font-weight:bold;font-size:0.8em;color:gray">projects </span> 
+        <span class="counting" style="margin-left:120px;font-size:0.8em;color:gray;font-weight:bold"><span style="font-size:1.2em;font-weight:bold">5</span> projects</span> 
          
         <hr style="width:650px">
             <br><br>
-        <fieldset  style="border-radius:20px;margin-left:30px;width:600px;height:220px">
-            <span style="font-size:15px;font-weight:bold;margin-bottom:5px">개인정보</span>
-            <div style="margin-top:30px ;font-size:14px">
-                <hr style="margin-top:10px;margin-bottom:10px">
-                <span style="margin-left:20px">
-                    닉네임 <span style="margin-left:44px">:</span><span style="margin-left:50px">Roniebin</span>
-                </span>
-                <hr style="margin-top:10px;margin-bottom:10px">
+            <div class="inform_container">
+                <fieldset  style="border-radius:20px;margin-left:30px;width:600px;height:225px">
+                    <span style="font-size:15px;font-weight:bold;margin-bottom:5px">개인정보</span>
+                    <div style="margin-top:30px ;font-size:14px">
+                        <hr style="margin-top:10px;margin-bottom:10px">
+                        <span style="margin-left:20px">
+                            닉네임 <span style="margin-left:44px">:</span>
+                            <span style="margin-left:50px">Roniebin</span>
+                        </span>
+                        <hr style="margin-top:13.5px;margin-bottom:10px">
 
-                <span style="margin-left:20px">
-                    E-Mail <span style="margin-left:46px">:</span><span style="margin-left:50px">1923986@donga.ac.kr</span>
-                </span>
-                <hr style="margin-top:10px;margin-bottom:10px">
+                        <span style="margin-left:20px">
+                            E-Mail <span style="margin-left:46px">:</span>
+                            <span style="margin-left:50px">1923986@donga.ac.kr</span>
+                        </span>
+                        <hr style="margin-top:13.5px;margin-bottom:10px">
 
-                <span style="margin-left:20px">
-                    전화번호 <span style="margin-left:30px">:</span><span style="margin-left:50px">01028129123</span>
-                </span>
-                <hr style="margin-top:10px;margin-bottom:10px">
-                <span style="margin-left:20px"> 비밀번호 <span style="margin-left:30px">:</span><span style="margin-left:50px">*********</span>
-                </span>
-            <hr style="margin-top:10px;margin-bottom:10px">
-            </div>
-        </fieldset>
-        <br><br>
-        <fieldset  style="border-radius:20px;margin-left:30px;width:600px;height:130px">
-            <span style="font-size:15px;font-weight:bold;margin-bottom:5px">전공</span>
-            <div style="margin-top:30px ;font-size:14px">
-                <hr>
-                <span style="margin-left:20px">
-                    분야 <span style="margin-left:30px">:</span><span style="margin-left:50px">프론트엔드</span>
-                </span>
-                <hr style="margin-top:10px;margin-bottom:10px">
+                        <span style="margin-left:20px">
+                            전화번호 <span style="margin-left:30px">:</span>
+                            <span style="margin-left:50px">01028129123</span>
+                        </span>
+                        <hr style="margin-top:13.5px;margin-bottom:10px">
+                        <span style="margin-left:20px"> 비밀번호 <span style="margin-left:30px">:</span>
+                        <span style="margin-left:50px">*********</span>
+                        </span>
+                    <hr style="margin-top:13.5px;margin-bottom:10px">
+                    </div>
+                </fieldset>
+                <br><br>
+                <fieldset  style="border-radius:20px;margin-left:30px;width:600px;height:135px">
+                    <span style="font-size:15px;font-weight:bold;margin-bottom:5px">전공</span>
+                    <div style="margin-top:30px ;font-size:14px">
+                        <hr>
+                        <span style="margin-left:20px">
+                            분야 <span style="margin-left:30px">:</span>
+                            <span style="margin-left:50px">프론트엔드</span>
+                        </span>
+                        <hr style="margin-top:13.3px;margin-bottom:10px">
 
-                <span style="margin-left:20px">
-                    언어 <span style="margin-left:30px">:</span><span style="margin-left:50px">JavaScript</span>
-                </span>
+                        <span style="margin-left:20px">
+                            언어 <span style="margin-left:30px">:</span>
+                            <span style="margin-left:50px">JavaScript</span>
+                        </span>
+                        <hr style="margin-top:13.3px;margin-bottom:10px">
+                    </div>
+                </fieldset>
+                <br><br>
+                <hr style="width:650px">
+              
+                <button class="edit"style="margin-left:300px;margin-top:20px;width:90px;height:40px">수정하기</button>
+              
+                <button class="remove_account"style="margin-left:180px">계정 탈퇴</button>
+      
+        </div>
+        <div class="edit_inform_container">
+            <fieldset  style="border-radius:20px;margin-left:30px;width:600px;height:225px">
+                <span style="font-size:15px;font-weight:bold;margin-bottom:5px">개인정보</span>
+                <div style="margin-top:30px ;font-size:14px">
+                    <hr style="margin-top:10px;margin-bottom:10px">
+                    <span style="margin-left:20px">
+                        닉네임 <span style="margin-left:44px">:</span>
+                        <input type="text" style="margin-left:50px" value="Roniebin">
+                      
+                    </span>
+                    <hr style="margin-top:10px;margin-bottom:10px">
+
+                    <span style="margin-left:20px">
+                        E-Mail <span style="margin-left:46px">:</span>
+                        <input type="text" style="margin-left:50px" value="1923986@donga.ac.kr">
+                    </span>
+                    <hr style="margin-top:10px;margin-bottom:10px">
+
+                    <span style="margin-left:20px">
+                        전화번호 <span style="margin-left:30px">:</span>
+                        <input type="text" style="margin-left:50px" value="01028129123">
+                    </span>
+                    <hr style="margin-top:10px;margin-bottom:10px">
+                    <span style="margin-left:20px"> 비밀번호 <span style="margin-left:30px">:</span>
+                    <input type="password" style="margin-left:50px" value="123456789">
                 <hr style="margin-top:10px;margin-bottom:10px">
-            </div>
-        </fieldset>
-        <br><br>
-        <hr style="width:650px">
-        <button style="margin-left:300px;margin-top:20px;width:90px;height:40px">수정하기</button>
-        <button style="margin-left:200px">계정 탈퇴</button>
-        </fieldset>
+                </div>
+            </fieldset>
+            <br><br>
+            <fieldset  style="border-radius:20px;margin-left:30px;width:600px;height:135px">
+                <span style="font-size:15px;font-weight:bold;margin-bottom:5px">전공</span>
+                <div style="margin-top:30px ;font-size:14px">
+                    <hr>
+                    <span style="margin-left:20px">
+                        분야 <span style="margin-left:30px">:</span>
+                        <input type="text" style="margin-left:50px" value="프론트엔드">
+                    </span>
+                    <hr style="margin-top:10px;margin-bottom:10px">
+
+                    <span style="margin-left:20px">
+                        언어 <span style="margin-left:30px">:</span>
+                        <input type="text" style="margin-left:50px" value="JavaScript">
+                    </span>
+                    <hr style="margin-top:10px;margin-bottom:10px">
+                </div>
+            </fieldset>
+            <br><br>
+            <hr style="width:650px">
+            <button class="edit_save"style="margin-left:250px;margin-top:20px;width:90px;height:40px">저장</button>
+            <button class="edit_cancle"style="margin-top:20px;width:90px;height:40px">취소</button>
+           
+              </div>
+       
     </div>
-    <script src="js/my_page.js"></script>
+    <script src="js/new_my_page.js"></script>
 </body>

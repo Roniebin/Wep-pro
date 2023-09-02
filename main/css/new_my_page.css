@@ -4,8 +4,11 @@
     align-items: center;
     justify-content: center;
     
+}
 
-
+.counting:hover{
+    text-decoration: underline;
+    cursor:pointer;
 }
 
   
