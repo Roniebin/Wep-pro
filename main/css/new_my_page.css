@@ -12,4 +12,13 @@
 }
 
   
-  
+.my_projects{
+    height:22px;
+    margin-top:5px;
+    
+   
+}
+.my_projects:hover{
+    background-color: #F2F2F2;
+    cursor:pointer;
+  }

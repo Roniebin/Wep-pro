@@ -21,35 +21,89 @@
        
     </div>
     <div class="wrap" >
-    
-        <fieldset style="margin-top:20px;width:700px;height:500px;background-color:white;border:none;border-radius:20px">
+        
+        <fieldset style="margin-top:20px;width:700px;height:550px;background-color:white;border:none;border-radius:20px">
             <br>
             <span style="margin-left:20px;font-weight:bold;font-size:18px">
                 북마크 관리
             </span>
             <br>
             <span class="counting" style="margin-left:40px;font-size:0.8em;color:gray;font-weight:bold"><span style="font-size:1.2em;font-weight:bold">5</span> projects</span> 
-        
-            <hr><br>
-            <fieldset  style="border-radius:20px;margin-left:30px;width:600px;height:300px">
-                <span style="font-size:15px;font-weight:bold;margin-bottom:5px">북마크</span><br>
-                <span style="font-size:10px;color:gray;margin-left:400px">자세한 사항은 프로젝트를 클릭해주세요!</span>
-                <div style="margin-top:10px ;font-size:14px">
-                    <hr style="margin-top:10px;margin-bottom:10px">
-                    <span style="margin-left:100px">
-                        이미지
-                    </span>
-                    <span style="margin-left:200px">
-                        프로젝트 명
-                    </span>
-                    <hr>
-                    <img src="./images/프로젝트사진2.png" class="homepage" style="border-radius:50%;margin-left:110px"alt="이미지 불러오기 실패" width="30" height="30"  >
-                    <span style="margin-left:150px;margin-bottom:20px">개발자 구인 사이트</span>
-                    
-                </div>
-            </fieldset>
+            <span style="font-size:12px;color:gray;margin-left:370px">북마크는 최대 10개까지 가능합니다.</span>
+            
+             
+            <hr><br><br>
+            <div class="bookmark_container">
+                <fieldset  style="border-radius:20px;margin-left:100px;width:450px;height:350px">
+                    <span style="font-size:15px;font-weight:bold;margin-bottom:5px">내 북마크</span><br>
+                    <span style="font-size:10px;color:gray;margin-left:250px">자세한 사항은 프로젝트를 클릭해주세요!</span>
+                    <div style="margin-top:10px ;font-size:14px">
+                        <hr style="margin-top:10px;margin-bottom:10px">
+                        
+                        <span style="font-weight:bold;margin-left:180px">
+                            북마크
+                        </span>
+                        <hr>
+                            <div class="my_projects" >
+                            <img src="./images/프로젝트사진2.png"  style="float:left;border-radius:50%;margin-left:150px"alt="이미지 불러오기 실패" width="20" height="20"  >
+                            <span style="margin-left:15px">개발자 구인 사이트</span>
+                            <br><br>
+                            </div>
+                            
+                            <div class="my_projects" >
+                                <img src="./images/프로젝트사진1.jpg"  style="float:left;border-radius:50%;margin-left:150px"alt="이미지 불러오기 실패" width="20" height="20"  >
+                                <span style="margin-left:15px">웹 디자인</span>
+                                <br><br>
+                            </div>
+
+                            <div class="my_projects">
+                                <img src="./images/프로젝트사진3.png"  style="float:left;border-radius:50%;margin-left:150px"alt="이미지 불러오기 실패" width="20" height="20"  >
+                                <span style="margin-left:15px">프로그래밍</span>
+                                <br><br>
+                            </div>
+                    </div>
+                </fieldset>
+                <button class="edit"style="margin-top:20px;margin-left:300px">북마크 수정</button>
+
+            </div>
+          
+            <div class="edit_bookmark_container">
+                <fieldset  style="border-radius:20px;margin-left:100px;width:450px;height:350px">
+                    <span style="font-size:15px;font-weight:bold;margin-bottom:5px">내 북마크</span><br>
+                    <span style="font-size:10px;color:gray;margin-left:250px">자세한 사항은 프로젝트를 클릭해주세요!</span>
+                    <div style="margin-top:10px ;font-size:14px">
+                        <hr style="margin-top:10px;margin-bottom:10px">
+                        
+                        <span style="font-weight:bold;margin-left:180px">
+                            북마크
+                        </span>
+                        <hr>
+                            <div class="my_projects" >
+                            <img src="./images/프로젝트사진2.png"  style="float:left;border-radius:50%;margin-left:150px"alt="이미지 불러오기 실패" width="20" height="20"  >
+                            <span style="margin-left:15px">개발자 구인 사이트</span>
+                            <br><br>
+                            </div>
+                            
+                            <div class="my_projects" >
+                                <img src="./images/프로젝트사진1.jpg"  style="float:left;border-radius:50%;margin-left:150px"alt="이미지 불러오기 실패" width="20" height="20"  >
+                                <span style="margin-left:15px">웹 디자인</span>
+                                <br><br>
+                            </div>
+
+                            <div class="my_projects">
+                                <img src="./images/프로젝트사진3.png"  style="float:left;border-radius:50%;margin-left:150px"alt="이미지 불러오기 실패" width="20" height="20"  >
+                                <span style="margin-left:15px">프로그래밍</span>
+                                <br><br>
+                            </div>
+                    </div>
+                </fieldset>
+                <button class="edit_save"style="margin-left:250px;margin-top:20px;width:90px;height:40px">저장</button>
+                <button class="edit_cancle"style="margin-top:20px;width:90px;height:40px">취소</button>
+               
+            </div>
+
         </fieldset>
        
     </div>
-    <script src="js/new_my_page.js"></script>
+    <script src="js/new_my_page_bookmark.js"></script>
 </body>
