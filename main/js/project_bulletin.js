@@ -72,7 +72,7 @@ var my_pic=document.querySelector('.my_pic');
     })
     
     my_pic.addEventListener('click',function(){
-        location.href='my_page.html';
+        location.href='new_my_page.html';
     })
 //북마크 이벤트연결
 

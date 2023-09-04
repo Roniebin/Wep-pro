@@ -20,3 +20,29 @@ edit_cancle.addEventListener("click",function(){
     bookmark_container.style.display="block";
     edit_bookmark_container.style.display="none";
 });
+var my_page_options=document.querySelectorAll('.my_page_options');
+
+my_page_options.forEach(function(item,index){
+    my_page_options[index].addEventListener('click',function(){
+    
+       if(index==0){
+         location.href='new_my_page.html';
+      
+       }else if(index==1){
+         location.href='new_my_page_project.html';
+        
+       }
+     else if(index==2){
+        location.href='new_my_page_bookmark.html';
+       
+      }
+    })
+   })
+
+var edit_my_bookmarks=document.querySelectorAll('.edit_my_bookmarks');
+edit_my_bookmarks.forEach(function(item,index){
+    edit_my_bookmarks[index].addEventListener('click',function(){
+        edit_my_bookmarks[index].remove();
+       
+    })
+   })
