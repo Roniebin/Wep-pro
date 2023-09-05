@@ -25,13 +25,13 @@ var gap=0;
 
 step_circles[0].addEventListener("click",function(){
     console.log("dd");
-    window.scrollTo({ left: 0, top: 1500, behavior: "smooth" });
+    window.scrollTo({ left: 0, top: 1100, behavior: "smooth" });
 })
 step_circles[1].addEventListener("click",function(){
-    window.scrollTo({ left: 0, top: 1900, behavior: "smooth" });
+    window.scrollTo({ left: 0, top: 1850, behavior: "smooth" });
 })
 step_circles[2].addEventListener("click",function(){
-    window.scrollTo({ left: 0, top: 2200, behavior: "smooth" });
+    window.scrollTo({ left: 0, top: 2600, behavior: "smooth" });
 })
 
 /*---------------------------------------------------------------------*/  
@@ -66,5 +66,5 @@ var my_pic=document.querySelector('.my_pic');
     })
     
     my_pic.addEventListener('click',function(){
-        location.href='my_page.html';
+        location.href='new_my_page.html';
     })
