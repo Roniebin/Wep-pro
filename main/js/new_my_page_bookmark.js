@@ -40,8 +40,14 @@ my_page_options.forEach(function(item,index){
    })
 
 var edit_my_bookmarks=document.querySelectorAll('.edit_my_bookmarks');
-edit_my_bookmarks.forEach(function(item,index){
-    edit_my_bookmarks[index].addEventListener('click',function(){
+var trashcan=document.querySelectorAll('.trashcan');
+
+var n;
+
+trashcan.forEach(function(item,index){
+    trashcan[index].addEventListener('click',function(){
+        n= edit_my_bookmarks[index].childNodes[3].innerHTML;
+        console.log(n);
         edit_my_bookmarks[index].remove();
        
     })

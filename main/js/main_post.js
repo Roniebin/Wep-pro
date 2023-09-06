@@ -13,7 +13,7 @@ no_hard1.addEventListener("click",function(){
 })
 
 no_hard2.addEventListener("click",function(){
-    window.scrollTo({ left: 0, top: 2000, behavior: "smooth" });
+    window.scrollTo({ left: 0, top: 3250, behavior: "smooth" });
 })
 
 
