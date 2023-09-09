@@ -32,7 +32,7 @@ var edit=document.querySelector(".edit");
 var inform_container=document.querySelector(".inform_container");
 //수정하기를 눌렀을때, 뜰 수정용 개인정보
 var edit_inform_container=document.querySelector(".edit_inform_container");
-var changing_profile=document.querySelector(".profile_btn");
+var changing_profile=document.querySelector(".changing_profile");
 
 edit_inform_container.style.display="none";
 //수정하기를 누르면 원래개인정보는 안보이고 수정용 개인정보를 띄움
