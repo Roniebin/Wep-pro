@@ -9,28 +9,33 @@
     <link rel="stylesheet" href="./css/creating_newPro.css">
 </head>
 
-<body class="wrapper2" style="background-color:#13161c">
-    <div class="container">
-    <fieldset class="creating_container"style="margin-top:50px;color: black;
-    width:600px;height:650px;border-radius:5%">>
-        <span style="color:white;font-size:20px">프로젝트 생성</span>
-        <br> <br> <br> <br> 
-
+<body class="wrapper2" style="background-color:#13161c;height:1050px">
+    <div class="container" style="height:900px">
+    <fieldset class="creating_container"style="text-align:center;border-color:#9B51E0;margin-top:50px;color: black;
+    width:600px;height:800px;border-radius:5%">><br>
+        <span style="color:white;font-size:25px;font-weight:bold">프로젝트 생성</span>
+        <br> <br> <br> 
         <div class="pro_name">
-        <span style="margin-left:20px;color:white;font-size:20px">프로젝트 명</span><br>
-        <input type="text">
+        <span style="color:white;font-size:14px;font-weight:bold">프로젝트 명</span><br>
+        <input class="text_box"type="text">
 
         </div>
         <br>
+        <div class="pro_leader">
+            <span style="color:white;font-size:14px;font-weight:bold">프로젝트 리더</span><br>
+            <input class="text_box"type="text">
+        </div> <br>
         <div class="pro_field">
-            <span style="margin-left:20px;color:white;font-size:20px">프로젝트 종류</span><br>
-            <input type="text">
+            <span style="color:white;font-size:14px;font-weight:bold">프로젝트 종류</span><br>
+            <input class="text_box"type="text">
         </div>
+        <br> <br>
+        <hr style="width:500px">
         <br>
-        <div class="how_hard">
-            <span style="margin-left:20px;color:white;font-size:20px">모집인원</span><br>
+        <div class="number_of_people">
+            <span style="color:white;font-size:14px;font-weight:bold">모집인원</span><br>
             <br>
-            <select name="magnitude"class="magnitude1" style="margin-left:20px">
+            <select name="howmany"class="howmany1" style="margin-left:20px">
             
             <option value="2" selected>2명</option>
             <option value="3">3명</option>
@@ -39,10 +44,36 @@
             <option value="6">6명</option>
             </select>
         </div>
+        <br>
+     
+        <br><br>
+        <div class="pro_">
+            <span style="color:white;font-size:14px;font-weight:bold">프로젝트 규모</span><br>
+            <br>
+            <input type="checkbox" class="check_box" style="margin-left:0"id="low" name="low" value="하"><label style="color:white"for>하</label>
+            <input type="checkbox" class="check_box"id="middle" name="middle" value="중"><label style="color:white"for>중</label>
+            <input type="checkbox" class="check_box"id="high" name="high" value="상"><label style="color:white"for>상</label>
+            
+        </div>
+        <br>
+        <hr style="width:500px">
+        <br>
+        <button class="next_page" onClick="location.href='project_bulletin.html'">
+            뒤로가기
+        </button>
+        <button class="next_page" onClick="location.href='creating_newPro2.html'">
+            다음페이지
+        </button>
+        <br>
         
     </fieldset>
-</div>
+    <br> <br> <br>
    
+</div>
+<button style="margin-left:445px;width:200px;height:4px;border-radius:20px;background-color:#9B51E0;border:none"></button>
+<button style="width:200px;height:4px;border-radius:20px;background-color:white;border:none"></button>
+<button style="width:200px;height:4px;border-radius:20px;background-color:white;border:none"></button>
+ 
     
 
 </body>
