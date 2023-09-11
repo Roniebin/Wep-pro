@@ -80,10 +80,11 @@ var heart=document.querySelectorAll('.heart1')
 
 heart.forEach(function(item,index){
     heart[index].addEventListener('click',function(){
-        if(heart[index].src=="http://127.0.0.1:5500/main/images/%ED%95%98%ED%8A%B8%EB%AA%A8%EC%96%91(%EB%B9%A8%EA%B0%95).jpg"){
-            heart[index].src="./images/하트모양(회색).jpg";
+        if(heart[index].src=="http://127.0.0.1:5539/main/images/%ED%95%98%ED%8A%B8%EB%AA%A8%EC%96%91(%EB%B9%A8%EA%B0%95).jpg"){
+            console.log("f")    
+        heart[index].src="./images/하트모양(회색).jpg";
         }else{
-
+            console.log("fdssfsdf")
             heart[index].src="./images/하트모양(빨강).jpg";
         }
     })
