@@ -58,8 +58,11 @@ remove_account.addEventListener("click",function(){
     location.href='remove_account.html';
 });
 
+var donga=document.querySelector('.donga');
+donga.addEventListener('mouseover',function(){
+    donga.style.cursor= "pointer";
+})
 
-var changing_profile=document.querySelector(".changing_profile");
-changing_profile.addEventListener("click",function(){
-    location.href='changing_profile.html';
-});
+donga.addEventListener('click',function(){
+    location.href='main_post.html';
+})

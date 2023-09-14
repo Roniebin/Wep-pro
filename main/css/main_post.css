@@ -20,8 +20,8 @@
 /*컨텐츠 박스에서의 css----------------------------------------------*/
 #contents_box{
    
-    width: 93.750em;
-    height: 3.125em;
+    width: 1500px;
+    height: 50px;
     display: flex;
     align-items: center; /* 하위 요소들 수직 가운데정렬 */
     position: relative;
@@ -116,7 +116,7 @@ a {
 
 /*fieldset -------------------------------------------------------------*/
 fieldset{
-    width:50.000em;
+    width:800px;
     padding:20px;
     text-align:center;
     padding-bottom:30px;
