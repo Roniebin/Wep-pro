@@ -56,6 +56,8 @@
     border-color:#9B51E0;
     width:100px;
     height:40px;
+    cursor:pointer;
+  
 }
 
 
@@ -122,4 +124,22 @@
     appearance: none;
   }
 
+.add_pic{
+    color:white;
+    background-color:#13161c;
+    margin-top:30px;
+    width:80px;
+    height:35px;
+    border-color:white;
+    border-radius:20px
+}
+.add_pic:hover{
+   border-color:#9B51E0;
+    cursor:pointer;
+}
 
+#bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

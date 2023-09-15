@@ -73,7 +73,10 @@ header > nav {
     margin-top:5px;
     
 }
-
+.changing_profile{
+  position: absolute;
+  top:200px;
+}
 .changing_profile input[type="file"] {
     
     position: absolute;
