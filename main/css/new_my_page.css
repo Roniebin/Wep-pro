@@ -1,9 +1,18 @@
 .wrap {
    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
     
+}
+.wrapper1{
+  display: grid;
+  grid-template-rows: 50px 100px 1000px ;
+
+  place-items: center;
+  min-height: 100vh;
 }
 #contents_box{
    
@@ -75,7 +84,7 @@ header > nav {
 }
 .changing_profile{
   position: absolute;
-  top:200px;
+  top:230px;
 }
 .changing_profile input[type="file"] {
     
