@@ -14,7 +14,9 @@ var bar=document.querySelector('#bar');
 
 add_pic.addEventListener('click',function(e){
     const testDiv = document.querySelector('.upload_profile');
-    console.log(testDiv);
+    
+    console.log(document.querySelectorAll('.upload-name')+" ");
+
     const newNode = testDiv.cloneNode(true);
     testDiv.after(newNode);
 
@@ -24,11 +26,10 @@ add_pic.addEventListener('click',function(e){
         var currentHeight = parseInt(getComputedStyle(container3).height, 10);
         var newHeight = currentHeight + 60;
         container3.style.height = newHeight + 'px';
-
-
-        
     }
 });
+
+
 
 
 

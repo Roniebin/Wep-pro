@@ -143,3 +143,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.trashcan{
+    cursor:pointer;
+}
