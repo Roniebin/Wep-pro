@@ -22,12 +22,24 @@ add_pic.addEventListener('click',function(e){
 
     profiles_number+=1;
     console.log(container3);
-    if (profiles_number>5){
+    if (profiles_number>3){
         var currentHeight = parseInt(getComputedStyle(container3).height, 10);
         var newHeight = currentHeight + 60;
         container3.style.height = newHeight + 'px';
     }
+
 });
+var upload_pictures=document.querySelectorAll('.upload-hidden')
+var upload_names=document.querySelectorAll('.upload-name')
+console.log(upload_pictures)
+console.log(upload_names)
+upload_pictures.forEach(function(item,index) {
+    upload_pictures[index].addEventListener('change',function(){
+        console.log(index)
+        upload_names[index].value= upload_pictures[index].value
+        console.log(upload_names[index])
+    })
+})
 
 
 
