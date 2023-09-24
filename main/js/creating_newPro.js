@@ -1,25 +1,45 @@
 // 업로드사진 개체들
-var profiles=document.querySelectorAll('.upload-name');
+let profiles=document.querySelectorAll('.upload-name');
 console.log(profiles);
 
 //업로드 한 사진 개수
-var profiles_number=profiles.length;
+let profiles_number=profiles.length;
 
 //사진 추가하기 버튼 
-var add_pic=document.querySelector('.add_pic');
+let add_pic=document.querySelector('.add_pic');
 console.log("dd"+profiles_number);
 //사진 업로드 페이지에 테두리 개체
-var container3=document.querySelector('.container3');
-var bar=document.querySelector('#bar');
+let container3=document.querySelector('.container3');
+let bar=document.querySelector('#bar');
+
+let upload_pictures=document.querySelectorAll('.upload-hidden')
+
+upload_pictures.forEach(function(item,index) {
+    
+    upload_pictures[index].addEventListener('change',function(){
+        change_p(index)
+    })
+})
+
+function change_p(index) {
+    
+    profiles[index].value= upload_pictures[index].value
+    console.log(profiles[index])
+}
 
 add_pic.addEventListener('click',function(e){
-    const testDiv = document.querySelector('.upload_profile');
+    console.log( document.querySelectorAll('.upload_profile'))
+    const testDiv = document.querySelectorAll('.upload_profile')[profiles_number-2];
     
-    console.log(document.querySelectorAll('.upload-name')+" ");
+    testDiv.childNodes[5].setAttribute('for',testDiv.childNodes[5].getAttribute('for')+"1")
+    testDiv.addEventListener("change",function(){
+        change_p(profiles_number-1)
+    });
 
     const newNode = testDiv.cloneNode(true);
-    testDiv.after(newNode);
 
+    testDiv.after(newNode);
+    profiles=document.querySelectorAll('.upload-name');
     profiles_number+=1;
     console.log(container3);
     if (profiles_number>3){
@@ -29,17 +49,6 @@ add_pic.addEventListener('click',function(e){
     }
 
 });
-var upload_pictures=document.querySelectorAll('.upload-hidden')
-var upload_names=document.querySelectorAll('.upload-name')
-console.log(upload_pictures)
-console.log(upload_names)
-upload_pictures.forEach(function(item,index) {
-    upload_pictures[index].addEventListener('change',function(){
-        console.log(index)
-        upload_names[index].value= upload_pictures[index].value
-        console.log(upload_names[index])
-    })
-})
 
 
 
