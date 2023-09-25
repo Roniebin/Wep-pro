@@ -29,9 +29,12 @@ function change_p(index) {
 
 add_pic.addEventListener('click',function(e){
     console.log( document.querySelectorAll('.upload_profile'))
+    console.log(profiles)
     const testDiv = document.querySelectorAll('.upload_profile')[profiles_number-2];
     
     testDiv.childNodes[5].setAttribute('for',testDiv.childNodes[5].getAttribute('for')+"1")
+    testDiv.childNodes[7].setAttribute('id',testDiv.childNodes[7].getAttribute('id')+"1")
+    
     testDiv.addEventListener("change",function(){
         change_p(profiles_number-1)
     });
