@@ -4,16 +4,13 @@
 /*---------------------------------------------------------------------*/
 
 /* 개발자를 찾으시나요?? 파트------------------------------------*/
-var no_hard1=document.querySelector("#no_hard1");
+
 var no_hard2=document.querySelector("#no_hard2");
 
-no_hard1.addEventListener("click",function(){
-   
-    window.scrollTo({ left: 0, top: 750, behavior: "smooth" });
-})
+
 
 no_hard2.addEventListener("click",function(){
-    window.scrollTo({ left: 0, top: 3700, behavior: "smooth" });
+    window.scrollTo({ left: 0, top: 750, behavior: "smooth" });
 })
 
 

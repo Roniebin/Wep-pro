@@ -86,9 +86,10 @@ a {
     width:230px;
     height:230px;
     border-radius:50%;
-    background:orange;
+    background:#13161c;
+
     font-size:16px;
-    border: none;
+    border: 1px solid cyan;
     margin-top:10px;
     margin-right: 100px;
     margin-left: 100px;
@@ -157,10 +158,11 @@ input[class="interests_item"] {
 .w-btn-neon2 {
   position: relative;
   border: none;
-  font-size:17px;
-  margin-left:120px;
-  min-width: 200px;
-  min-height: 70px;
+  font-size:20px;
+  margin-left:350px;
+  margin-bottom:100px;
+  min-width: 250px;
+  min-height: 90px;
   background: linear-gradient(
       90deg,
       rgba(129, 230, 217, 1) 0%,
@@ -212,7 +214,6 @@ input[class="interests_item"] {
 
 
 .step:hover{
-  background:#e77331;
   cursor:pointer;
 }
 
