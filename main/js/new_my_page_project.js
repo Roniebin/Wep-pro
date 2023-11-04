@@ -32,7 +32,7 @@ var my_projects=document.querySelectorAll(".my_projects");
 my_projects.forEach(function(item,index){
     my_projects[index].addEventListener('click',function(){
     if(index==0){
-        location.href='detailed_page.html';
+        location.href='managing_proj.html';
     }
        
     })
