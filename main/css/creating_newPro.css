@@ -1,7 +1,11 @@
+.wrapper2{
+    margin:0 auto;
+}
+
 .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width:1000px;
+    margin:0 auto;
+    
 }
 
 
